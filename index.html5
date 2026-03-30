@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descrição da página para mecanismos de busca">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Seu Nome">
+    <title>Minha Página - Título Principal</title>
+    
+    <!-- Link para CSS externo (opcional) -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    
+    <!-- Estilos internos (opcional) -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bem-vindo à Minha Página</h1>
+            <p>Uma página HTML5 completa com estrutura semântica</p>
+        </header>
+        
+        <main>
+            <section>
+                <h2>Sobre Nós</h2>
+                <p>Esta é uma página HTML5 básica com estrutura semântica, incluindo tags como <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, e <code>&lt;footer&gt;</code>.</p>
+                <p>O documento inclui metadados essenciais como <code>meta charset="UTF-8"</code> para suporte a caracteres especiais e acentuação correta.</p>
+            </section>
+            
+            <section>
+                <h2>Recursos Incluídos</h2>
+                <ul>
+                    <li>✅ Estrutura HTML5 semântica</li>
+                    <li>✅ Meta tags otimizadas para SEO</li>
+                    <li>✅ Viewport configurado para responsividade</li>
+                    <li>✅ Estilos CSS básicos inclusos</li>
+                    <li>✅ Pronto para adicionar JavaScript</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Exemplo de Conteúdo</h2>
+                <article>
+                    <h3>Artigo de Exemplo</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" style="display: inline-block; margin-top: 10px; color: #007bff; text-decoration: none;">Leia mais →</a>
+                </article>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 Minha Empresa. Todos os direitos reservados.</p>
+            <p>Desenvolvido com HTML5 e CSS3</p>
+        </footer>
+    </div>
+    
+    <!-- Scripts JavaScript (opcional) -->
+    <script>
+        // Exemplo de JavaScript básico
+        console.log('Página carregada com sucesso!');
+        
+        // Pode adicionar interatividade aqui
+        document.addEventListener('DOMContentLoaded', function() {
+            // Código executado após o carregamento completo da página
+            console.log('DOM completamente carregado e analisado');
+        });
+    </script>
+    
+    <!-- Link para JavaScript externo (opcional) -->
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
